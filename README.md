@@ -8,9 +8,10 @@
 ## steps to run the project
 
 * clone the  project
-* in apps/backend make sure to add .env file similar to .env.example and add your MONGODB_URI
+* in /apps/backend make sure to add .env file similar to .env.example and add your MONGODB_URI
 
 * make sure you have node version 20 or install it using nvm
+* you will find a postman collection to test the api : /docs
 ```sh
 node -v
 ```
