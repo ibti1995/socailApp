@@ -8,6 +8,7 @@
 ## steps to run the project
 
 * clone the  project
+* add .env file to be similar to .env.example and add your db uri
 
 * make sure you have node version 20 or install it using nvm
 ```sh
