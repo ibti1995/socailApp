@@ -40,3 +40,16 @@ Thumbs.db
 
 .nx/cache
 .nx/workspace-data
+
+
+#environmentvariables
+
+apps/backend/.env
+apps/frontend/.env
+
+
+#log file
+logs
+
+#yarnlock
+yarn.lock
