@@ -8,7 +8,7 @@
 ## steps to run the project
 
 * clone the  project
-* add .env file to be similar to .env.example and add your db uri
+* in apps/backend make sure to add .env file similar to .env.example and add your MONGODB_URI
 
 * make sure you have node version 20 or install it using nvm
 ```sh

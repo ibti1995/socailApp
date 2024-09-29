@@ -15,7 +15,8 @@ mongoose.connection.on('error', (error: Error) => {
 const connect = async (): Promise<mongoose.Connection> => {
   try {
     await mongoose.connect(envConfig.mongoUri, {
-      dbName: 'LinkUp', });
+      dbName: 'LinkUp',
+    });
     logger.info('Database connected successfully!');
   } catch (error) {
     logger.error(`MongoDB connection failed: ${error}`);
